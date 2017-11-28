@@ -15,4 +15,4 @@ fprintf('\n Accuracy: %f\n', mean(double(pred == y)) * 100);
 
 %textLabel = sprintf('Variable C = %f', C);
 textLabel=sprintf('\n%f\n', mean(double(pred == y)) * 100);
-set(handles.text7, 'String',textLabel );
+set(handles.text7, 'String',num2str(textLabel) );
